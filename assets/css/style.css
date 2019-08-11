@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 1px;
+  background: #f2f3f5;
+  overflow: hidden;
+}
+
+/* 
+*global elements 
+*/
+
+button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background: #fff;
+  color: #000;
+  border-radius: 2px;
+}
+
+input {
+  border: 1px solid #333;
+  background: #fff;
+  color: #000;
+  border-radius: 2px;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+  width: 100%
+}
+
+.loading-modal {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.left-menu {
+  width: 20%;
+  height: 100vh;
+  z-index: 999;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 15px 0px rgba(122, 122, 122, 1);
+  -moz-box-shadow: 0px 3px 15px 0px rgba(122, 122, 122, 1);
+  box-shadow: 0px 3px 15px 0px rgba(122, 122, 122, 1);
+}
+
+.left-menu-logo-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px 30px 20px;
+  border-bottom: 1px solid #9E9E9E;
+}
+
+.left-menu-logo {
+  height: 130px;
+}
+
+.left-menu-text {
+  display: flex;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.left-menu-row {
+  display: flex;
+  flex-flow: row;
+  cursor: pointer;
+  width: 100%;
+  padding: 30px 0 30px 20px;
+  margin: -1px 0;
+  color: #404040;
+  border-bottom: 1px solid #9E9E9E;
+  transition: all .6s;
+}
+
+.left-menu-row-text {
+  margin-left: 10px
+}
+
+.left-menu-row:hover {
+  background: #404040;
+  color: #fff;
+  padding-left: 60px;
+}
+
+.left-menu-row-active {
+  background: #404040;
+  padding-left: 60px;
+  color: #fff;
+}
+
+.right-container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.top-menu {
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  -webkit-box-shadow: 1px 3px 15px 0px rgb(169, 169, 169);
+  -moz-box-shadow: 1px 3px 15px 0px rgb(169, 169, 169);
+  box-shadow: 1px 3px 15px 0px rgb(169, 169, 169);
+  z-index: 998;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.body-content {}
+
+@media (min-width:1920px) {}
+
+@media (min-width:1200px) {}
+
+@media (min-width:1024px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:568px) {}
+
+@media (min-width:320px) {}
